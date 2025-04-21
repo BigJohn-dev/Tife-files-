@@ -5,10 +5,7 @@ public class SecondLargestNumber {
 
 	Scanner input = new Scanner(System.in);
 
-	int counter = 1;
-	int largest = 0;
-	int secLargest = 0;
-	int number;
+	int counter = 1; largest = 0; secLargest = 0;number;
 
 	System.out.println(" _- THE SECOND LARGEST -_");
 
