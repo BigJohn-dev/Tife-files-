@@ -18,9 +18,10 @@ public class SecondLargestNumber {
 	counter++;
 
 	if (number > largest) {
+	secLargest = largest;
 	largest = number;
-}
-	if (number < largest) {
+
+}	else if (number != largest) {
 	secLargest = number;
 }
 
