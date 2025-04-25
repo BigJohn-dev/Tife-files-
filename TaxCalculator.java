@@ -20,14 +20,14 @@ public class TaxCalculator {
 	amount = input.nextInt();
 
 	if(amount < 30000) {
-	int taxRate = (15 / 100) * amount;
+	double taxRate = 0.15 * amount;
 	System.out.print(name + ", your total tax is " + taxRate);
-	System.out.println("Ensure you pay before due.");
+	System.out.println("\nEnsure you pay before due.");
 
 }	else {
-	int tax = (20 / 100) * amount;
+	double tax = 0.02 * amount;
 	System.out.print(name + ", your total tax is " + tax);
-	System.out.println("Ensure you pay before due.");
+	System.out.println("\nEnsure you pay before due.");
 }
 	System.out.println("\nEnter any number to continue or 0 to quit.");
 	num = input.nextInt();

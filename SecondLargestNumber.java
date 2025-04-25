@@ -22,6 +22,7 @@ public class SecondLargestNumber {
 	largest = number;
 
 }	else if (number != largest) {
+	largest = secLargest;
 	secLargest = number;
 }
 
